@@ -317,9 +317,4 @@ const Hero = () => {
     </div>
   );
 };
-<<<<<<< HEAD
-
-export default Hero;	
-=======
 export default Hero;
->>>>>>> e3e76b907fc296a59b35997a9db3c4b4ed9d0abd
