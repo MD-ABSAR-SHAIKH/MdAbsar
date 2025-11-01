@@ -192,10 +192,15 @@ const Hero = () => {
     <div className="h-screen relative">
       <div className="absolute sm:top-4 top-20 -z-10 w-full h-full left-0">
         <Canvas>
-          <Suspense fallback="loading...">
+          {/* <Suspense fallback="loading...">
             <Shape />
             //set it in the bg
+          </Suspense> */}
+          <Suspense fallback="loading...">
+            <Shape />
+            {/* set it in the bg */}
           </Suspense>
+
         </Canvas>
       </div>
       <div className="pt-28 pl-6  sm:pl-12">
@@ -263,7 +268,7 @@ const Hero = () => {
         </motion.div>
       </div>
       {/* <div className="absolute sm:bottom-0 bottom-10 sm:ml-10 sm:w-[28rem] sm:mt-96 w-[21rem] sm:left-96 left-4"> */}
-      <div className="absolute sm:bottom-0 bottom-16 sm:h-full sm:w-[40rem] sm:ml-80">
+      <div className="absolute sm:bottom-0 sm:h-full sm:w-[40rem] sm:ml-80 md:h-auto md:ml-96">
         {/* <img src="hero.png" alt="" /> */}
         <img src={myphoto} className="sm:mt-20" />
         {/* <img src={mypho} className="mt-20 sm:hidden"/> */}
@@ -305,10 +310,12 @@ const Hero = () => {
           <BsTwitterX />
         </a>
 
-        <a target="_blank" href={"https://github.com/aasu-shaikh-01"}>
+        <a target="_blank" href={"https://github.com/MD-ABSAR-SHAIKH"}>
           <FaGithub />
         </a>
       </motion.div>
     </div>
   );
 };
+
+export default Hero;	

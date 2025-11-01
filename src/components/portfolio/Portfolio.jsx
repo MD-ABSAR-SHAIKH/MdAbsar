@@ -134,7 +134,7 @@ const Portfolio = () => {
   };
   return (
     <motion.div
-      className="flex sm:gap-4 gap-8 mx-4 sm:mx-0 flex-wrap"
+      className="flex md:justify-center sm:gap-4 gap-8 mx-4 sm:mx-0 flex-wrap"
       variants={awardVariants}
       initial="initial"
       animate="animate"
