@@ -298,7 +298,7 @@ const Hero = () => {
         <a
           target="_blank"
           href={
-            "https://www.instagram.com/aasu_shaikh_01/profilecard/?igsh=emdlMTlsZWJqZjE="
+            "https://www.instagram.com/md_absarr/"
           }
         >
           <FaSquareInstagram />
