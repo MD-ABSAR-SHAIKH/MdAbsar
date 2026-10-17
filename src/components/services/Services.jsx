@@ -18,7 +18,7 @@ const Services = () => {
       <hr className="bg-white h-0.5 my-2 sm:mx-64 mx-8" />
       </div>
       <div className="flex h-screen flex-col sm:flex-row sm:justify-between sm:gap-44 items-center">
-        <div className="sm:mr-3 ml-5 sm:ml-0">
+        <div className="sm:mr-3 sm:ml-0">
           <h1 className="ml-4">👉 Wallpaper will be updated soon...</h1>
           <h1 className="ml-4">
             👉 UI Will be illustrated with different size of screen...
