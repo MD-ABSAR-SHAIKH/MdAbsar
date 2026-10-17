@@ -39,7 +39,7 @@ const Education = () => {
               contentArrowStyle={{
                 borderRight: "16px solid  white",
               }}
-              date="2024 - present-(2nd-year)"
+              date="2023 - session"
               iconStyle={{ background: "black", color: "white" }}
               icon={<IoSchool />}
             >

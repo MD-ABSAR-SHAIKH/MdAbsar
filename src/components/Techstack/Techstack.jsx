@@ -60,6 +60,16 @@ const Techstack = () => {
           <div className="flex items-center text-xl sm:px-8 px-4 sm:py-4 py-2 border-solid border border-sky-500 gap-1 rounded-md cursor-pointer hover:bg-blue-300 hover:shadow-2xl">
             <FaGithub size={30} /> <p>GITHUB</p>
           </div>
+          <div className="flex items-center text-xl sm:px-8 px-4 sm:py-4 py-2 border-solid border border-sky-500 gap-1 rounded-md cursor-pointer hover:bg-blue-300 hover:shadow-2xl">
+           <p>-------------ML & AI-------------</p>
+          </div>
+          <div className="flex items-center text-xl sm:px-8 px-4 sm:py-4 py-2 border-solid border border-sky-500 gap-1 rounded-md cursor-pointer hover:bg-blue-300 hover:shadow-2xl">
+           <p>Python, NumPy, Pandas, Scikit-learn</p>
+          </div>
+          <div className="flex items-center text-xl sm:px-8 px-4 sm:py-4 py-2 border-solid border border-sky-500 gap-1 rounded-md cursor-pointer hover:bg-blue-300 hover:shadow-2xl">
+           <p>PyTorch, ML fundamentals</p>
+          </div>
+
         </div>
       </div>
     </div>

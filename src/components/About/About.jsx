@@ -1,5 +1,7 @@
 import React from "react";
-import mypho from "../../../public/assets/soya.png";
+// import mypho from "../../../public/assets/soya.png";
+const mypho = "/assets/label.png";
+
 
 const About = () => {
   return (
@@ -26,14 +28,12 @@ const About = () => {
         </div>
         <div className="p-4f sm:w-[300rem]">
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-            tempore totam necessitatibus debitis nam fuga neque nulla, ratione
-            labore accusamus molestiae! Voluptatum nesciunt provident
-            repudiandae Lorem, ipsum dolor sit amet consectetur adipisicing
-            elit. Assumenda tempore totam necessitatibus debitis nam fuga neque
-            nulla, ratione labore accusamus molestiae! Voluptatum nesciunt
-            provident repudiandae voluptates earum, mollitia sit quasi!
-          </p>
+ Hi, I'm Md Absar, a Computer Science and Engineering student passionate about Full Stack Development and AI Engineering. I enjoy building modern, responsive, and user-friendly web applications while exploring how artificial intelligence can solve real-world problems.
+
+I work with the MERN stack, including MongoDB, Express.js, React.js, and Node.js, to develop full-stack applications, RESTful APIs, and interactive user interfaces. I'm also interested in AI, machine learning, and intelligent systems that combine software development with data-driven solutions.
+
+I continuously strive to strengthen my programming skills, explore emerging technologies, and turn innovative ideas into practical solutions. My goal is to become a versatile software engineer capable of building impactful applications powered by modern web technologies and AI.
+</p>
         </div>
       </div>
       {/* <div
