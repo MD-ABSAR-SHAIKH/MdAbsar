@@ -567,7 +567,7 @@ const Contact = () => {
     }
   };
   return (
-    <div className="mt-96">
+    <div className="mt-[30rem] md:mt-0">
       <div className="sm:mt-44 -mt-[30rem]">
         <h1 className="sm:text-3xl text-xl font-bold flex justify-center">
           Contact
