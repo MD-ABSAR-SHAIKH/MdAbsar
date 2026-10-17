@@ -567,7 +567,7 @@ const Contact = () => {
     }
   };
   return (
-    <div>
+    <div className="mt-96">
       <div className="sm:mt-44 -mt-[30rem]">
         <h1 className="sm:text-3xl text-xl font-bold flex justify-center">
           Contact
@@ -584,7 +584,7 @@ const Contact = () => {
         </div>
         <div className="flex sm:w-1/2 flex-col items-center">
           <p className="flex items-center gap-4 text-xl">
-            Contact With
+            Connect With
             <a
               target="_blank"
               href={"https://web.whatsapp.com/send?phone=8002895833"}

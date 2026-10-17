@@ -19,11 +19,8 @@ const Services = () => {
       </div>
       <div className="flex h-screen flex-col sm:flex-row sm:justify-between sm:gap-44 items-center">
         <div className="sm:mr-3 sm:ml-0">
-          <h1 className="ml-4">👉 Wallpaper will be updated soon...</h1>
-          <h1 className="ml-4">
-            👉 UI Will be illustrated with different size of screen...
-          </h1>
-          <h1 className="ml-4">👉 Then you will be able to decide the UX...</h1>
+          <h1 className="ml-4">👉 Portfolio will be added on different screens.</h1>
+          <h1 className="ml-4">👉 Then will be able to decide the UX.</h1>
           <a
             onClick={() => {
               setPad(false);
