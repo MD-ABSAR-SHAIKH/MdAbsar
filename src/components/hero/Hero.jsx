@@ -1,3 +1,4 @@
+
 import Resume from "/myresume.pdf?url";
 import { motion } from "motion/react";
 import React, { Suspense } from "react";
@@ -109,8 +110,8 @@ const Hero = () => {
         </motion.div>
       </div>
 
-      {/* MOBILE PORTRAIT — unchanged */}
-      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-[470px] flex items-end justify-center sm:hidden">
+      {/* MOBILE PORTRAIT — reduced height */}
+      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-[350px] flex items-end justify-center sm:hidden">
         <img
           src={myphotoMob}
           alt="Md Absar"
@@ -118,7 +119,7 @@ const Hero = () => {
         />
       </div>
 
-      {/* DESKTOP PORTRAIT — moved further left */}
+      {/* DESKTOP PORTRAIT — unchanged */}
       <div className="hidden sm:block absolute bottom-0 right-[18rem] md:right-[19rem] lg:right-[20rem] xl:right-[22rem]">
         <img
           src={myphoto}
@@ -149,7 +150,6 @@ const Hero = () => {
         </a>
 
         <a
-        className="text-black md:text-white"
           target="_blank"
           href="https://www.instagram.com/md_absarr/"
         >
@@ -158,14 +158,12 @@ const Hero = () => {
 
         <a
           target="_blank"
-        className="text-black md:text-white"
           href="https://x.com/MdAbsar46217506?t=didCP6sdxHDcWPWARw0-uA&s=08"
         >
           <BsTwitterX />
         </a>
 
         <a
-        className="text-black md:text-white"
           target="_blank"
           href="https://github.com/MD-ABSAR-SHAIKH"
         >

@@ -19,7 +19,7 @@ const About = () => {
      shadow-2xl h-[90vh]"
         id="About"
       >
-        <div className="sm:w-[300rem] sm:p-4">
+        <div className="sm:w-[300rem] sm:p-4 sm:mt-32 md:mt-0">
           <img
             src={mypho}
             className="rounded-lg shadow-2xl sm:w-[200rem] mb-12"
