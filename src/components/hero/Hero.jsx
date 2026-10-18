@@ -201,10 +201,8 @@ const awardVariants = {
 const Hero = () => {
   return (
     <div className="h-screen min-h-[640px] min-[520px]:max-lg:min-h-[820px] lg:min-h-0 relative overflow-hidden">
-      {/* Background Bubble
-          - 400px to 519px wide: 90% height, nudged lower
-          - large portrait screens: 900px tall, pinned to the bottom */}
-      <div className="absolute top-20 min-[400px]:max-[519px]:top-32 lg:landscape:top-4 lg:portrait:top-auto lg:portrait:bottom-0 -z-10 w-full h-full min-[400px]:max-[519px]:h-[90%] lg:portrait:h-[900px] left-0">
+      {/* Background Bubble */}
+      <div className="absolute top-20 max-[339px]:top-44 min-[340px]:max-[399px]:top-32 min-[400px]:max-[519px]:top-32 min-[900px]:max-lg:top-14 lg:landscape:top-4 lg:portrait:top-auto lg:portrait:bottom-0 -z-10 w-full h-full max-[389px]:h-[85%] min-[390px]:max-[399px]:h-[75%] min-[400px]:max-[519px]:h-[90%] min-[900px]:max-lg:h-[118%] lg:portrait:h-[900px] left-0">
         <Canvas>
           <Suspense fallback="loading...">
             <Shape />
@@ -213,8 +211,8 @@ const Hero = () => {
       </div>
 
       {/* Introduction */}
-      <div className="pt-28 min-[520px]:max-lg:pt-36 pl-6 min-[520px]:max-lg:pl-14 lg:pl-12">
-        <div className="text-2xl min-[520px]:max-lg:text-4xl lg:text-4xl font-bold">
+      <div className="pt-28 max-[339px]:pt-32 min-[520px]:max-[899px]:pt-36 min-[900px]:max-lg:pt-36 pl-6 min-[520px]:max-[899px]:pl-14 min-[900px]:max-lg:pl-12 lg:pl-12">
+        <div className="text-2xl min-[520px]:max-[899px]:text-4xl min-[900px]:max-lg:text-5xl lg:text-4xl font-bold">
           <motion.div
             initial={{ y: -100, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
@@ -257,14 +255,14 @@ const Hero = () => {
           variants={awardVariants}
           initial="initial"
           animate="animate"
-          className="flex gap-8 mt-8 min-[520px]:max-lg:mt-12 lg:mt-16"
+          className="flex gap-8 mt-8 min-[520px]:max-[899px]:mt-12 min-[900px]:max-lg:mt-10 lg:mt-16"
         >
           <motion.a
             variants={awardVariants}
             href={Resume}
             target="_blank"
             download="MyResume.pdf"
-            className="bg-blue-500 text-white px-4 py-2 min-[520px]:max-lg:px-6 min-[520px]:max-lg:py-3 min-[520px]:max-lg:text-lg rounded hover:bg-blue-700 hover:scale-105 transition duration-300 ease-in-out"
+            className="bg-blue-500 text-white px-4 py-2 min-[520px]:max-[899px]:px-6 min-[520px]:max-[899px]:py-3 min-[520px]:max-[899px]:text-lg min-[900px]:max-lg:px-6 min-[900px]:max-lg:py-3 min-[900px]:max-lg:text-xl rounded hover:bg-blue-700 hover:scale-105 transition duration-300 ease-in-out"
           >
             My Resume
           </motion.a>
@@ -273,19 +271,19 @@ const Hero = () => {
             variants={awardVariants}
             href="https://web.whatsapp.com/send?phone=8002895833"
             target="_blank"
-            className="bg-green-500 text-white px-4 py-2 min-[520px]:max-lg:px-6 min-[520px]:max-lg:py-3 min-[520px]:max-lg:text-lg rounded hover:bg-green-700 hover:scale-105 transition duration-300 ease-in-out"
+            className="bg-green-500 text-white px-4 py-2 min-[520px]:max-[899px]:px-6 min-[520px]:max-[899px]:py-3 min-[520px]:max-[899px]:text-lg min-[900px]:max-lg:px-6 min-[900px]:max-lg:py-3 min-[900px]:max-lg:text-xl rounded hover:bg-green-700 hover:scale-105 transition duration-300 ease-in-out"
           >
             Hire Me
           </motion.a>
         </motion.div>
       </div>
 
-      {/* PHOTO: phone 350px | 400-519px: 400px | 520-1023px: 620px | large portrait: 600px */}
-      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-[350px] min-[400px]:max-[519px]:h-[400px] min-[520px]:max-lg:h-[620px] lg:portrait:h-[600px] flex items-end justify-center lg:landscape:hidden">
+      {/* PHOTO */}
+      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-[350px] max-[389px]:h-[390px] min-[390px]:max-[399px]:h-[450px] min-[400px]:max-[519px]:h-[calc(450px_+_(100vw_-_400px)_*_0.3)] min-[520px]:max-[899px]:h-[620px] min-[900px]:max-lg:h-[600px] lg:portrait:h-[600px] flex items-end justify-center lg:landscape:hidden">
         <img
           src={myphotoMob}
           alt="Md Absar"
-          className="h-full w-auto max-w-none object-contain object-bottom"
+          className="h-full w-auto max-w-none object-contain object-bottom origin-bottom min-[390px]:max-[519px]:scale-125"
         />
       </div>
 
